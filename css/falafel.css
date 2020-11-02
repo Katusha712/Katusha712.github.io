@@ -1,18 +1,22 @@
-body{
+	body{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	padding: 0px 10px 0px 20px;
-	max-width: 1200px;
 	color: #011502;
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
 }
 header,footer{
 	text-align: justify;
 	max-width: 1200px;
+	margin: 0 auto;
+}
+.l{
+	text-align: center;
 }
 .logo{
-	text-align: center;}
-.l{
 	border-radius: 10px;
-	box-shadow: 0 0 10px #444;
+	box-shadow: 0 0 10px #fff;
 }
 .linkinfo{
 	text-decoration: none;
@@ -33,9 +37,8 @@ header,footer{
 	color:#042105;
 	font-weight: 400;
 	text-align: justify;
-	max-height: 250px;
-	min-height: 150px;
-	max-width:1200px ;
+	height: 250px;
+	width:1200px ;
 	overflow: auto;
 }
 h2{
@@ -50,6 +53,14 @@ h3{
 	color: #042105;
 	height: 50px;
 	font-weight: 400;
+	text-align: center;
+	text-shadow: 1px 1px 7px #C5F3C6;
+	letter-spacing: 5px;
+}
+h4{
+	color: #042105;
+	height: 50px;
+	font-weight: 400;
 	text-align: left;
 	text-shadow: 1px 1px 7px #C5F3C6;
 	letter-spacing: 5px;
@@ -59,8 +70,15 @@ p{
 	hyphens: auto;
 	height: 10px;
 }
-.drink ul li, .menu ul li{
+.drink ul li,.menu ul li{
 	list-style-type: none;
+	text-align: left;
+}
+.drink ul li{
+	text-indent: 50px;
+}
+.drink1,.drink2,.drink3{
+	text-align: center;
 }
 .l1 li:last-of-type:before{
 	content: "\1F4B0";
@@ -78,7 +96,15 @@ p{
 	content: "\2615";
 	opacity: 0.6;
 }
-
+.sale ol ul li{
+	text-align-last: left;
+}
+.checkbox{
+	text-indent: 27px;
+}
+.checkbox1{
+	text-indent: 14px;
+}
 .sale ol ul li:nth-child(odd){
 	text-indent: 10px;
 }
@@ -87,17 +113,18 @@ p{
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 2vw;
-	max-height: 1200px;
-}
-.eat1, .eat2,.eat3,.eat4{
-	min-width: 280px;
+	max-height: 500px;
+	text-align: center;
+	max-width: 1200px;
 }
 .drinks{
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 2vw;
-	max-height: 1200px;
+	max-height: 400px;
+	text-align: center;
+	max-width: 1200px;
 }
 .img{
 	height: 200px;
@@ -121,19 +148,40 @@ p{
 .cont1{
 	position: relative;
 	left: 0;
+	top: -35px;
 	max-width: 400px;
+	max-height: 15px;
 }
 .cont2{
 	position: relative;
-	left: 400px;
-	top: -170px;
+	left: 470px;
+	top: -70px;
+	max-width: 300px;
+	max-height: 0;
 }
 .cont3{
 	position: relative;
-	top: -320px;
-	left: 850px;
-
+	top: -90px;
+	left: 840px;
+	max-width: 400px;
+	max-height: 0;
 }
+.cont4{
+	position: relative;
+	left: 470px;
+	top: -100px;
+	max-width: 300px;
+	max-height:0;
+}
+.cont5{
+	position: relative;
+	left: 950px;
+	top: -125px;
+	max-width: 300px;
+	max-height: 0;
+}
+
+
 
 
 
